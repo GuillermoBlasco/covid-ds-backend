@@ -11,5 +11,5 @@ def get_country(country_code):
 
 def get_series_by_code(country_code):
     data = covid_db.series.find({"country_code": country_code})
-    return data
+    return [d for d in data]
 
