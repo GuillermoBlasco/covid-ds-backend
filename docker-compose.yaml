@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  mongo:
+    image: mongo
+    restart: always
+    ports:
+      - "20001:27017"
+
