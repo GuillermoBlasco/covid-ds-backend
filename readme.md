@@ -4,10 +4,12 @@
 1. install python 3 (https://www.python.org/downloads/)
 2. install pip (https://pip.pypa.io/en/stable/installing/)
 3. install venv (https://uoa-eresearch.github.io/eresearch-cookbook/recipe/2014/11/26/python-virtual-env/)
-4. activate the environment
-5. install dependencies
-6. run `docker-compose up -d`
-7. Configure in PyCharm community IDE a new Flask app using `app.py` file as entrypoint
+4. clone this repo, and cd the repo directory
+5. create environment
+6. activate the environment
+7. install dependencies
+8. run `docker-compose up -d`
+9. Configure in PyCharm community IDE a new Flask app using `app.py` file as entrypoint
 
 Code editor: PyCharm community
 
